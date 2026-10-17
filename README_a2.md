@@ -133,7 +133,7 @@ Simulation Aborted (Safety threshold reached)
 The log is long (hundreds of lines), so redirect it to a file if you want to study it:
 
 ```bash
-python3 simulation.py > output.txt
+python3 a2_q3.py > output.txt
 ```
 
 The prompts will not appear on screen when redirected, but they still read your typed input.
@@ -141,7 +141,7 @@ The prompts will not appear on screen when redirected, but they still read your 
 To run non-interactively, pipe the answers in:
 
 ```bash
-printf "SR\nC\n" | python3 simulation.py > sr_scenario_c.txt
+printf "SR\nC\n" | python3 a2_q3.py > sr_scenario_c.txt
 ```
 
 ## How the code is organized
